@@ -1,0 +1,30 @@
+#N canvas 63 63 836 497 12;
+#X msg 46 129 0.1 0.2 0.3 0.4 0.3 0.2 0.1;
+#X floatatom 86 163 5 0 0 0 - - - 0;
+#X text 129 163;
+#X obj 46 225 array set simpio;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X array simpio 7 float 3;
+#A 0 0.1 0.2 0.3 0.4 0.3 0.2 0.1;
+#X coords 0 1 7 -1 200 140 1;
+#X restore 340 -11 graph;
+#X floatatom 267 264 5 0 10 0 - - - 0;
+#X obj 248 229 bng 17 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X floatatom 289 297 5 -1 10 0 - - - 0;
+#X text 274 180 "array get" outputs all or a selected range of elements
+of the array as a list., f 63;
+#X text 270 229 bang for output;
+#X text 309 264 onset (first index to output) \, zero for start of
+array;
+#X listbox 246 449 70 0 0 0 - - - 0;
+#X obj 249 376 array get simpio;
+#X obj 76 312 hsl 128 15 0 7 0 0 empty empty empty -2 -8 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X connect 0 0 3 0;
+#X connect 1 0 3 1;
+#X connect 5 0 12 0;
+#X connect 6 0 12 0;
+#X connect 7 0 12 1;
+#X connect 12 0 11 0;
+#X connect 13 0 12 0;

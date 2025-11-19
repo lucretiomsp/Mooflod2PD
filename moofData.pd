@@ -1,0 +1,94 @@
+#N canvas -77 -1011 1590 983 12;
+#X obj 736 37 netreceive -u -b 57120;
+#X obj 633 116 oscparse;
+#X obj 314 547 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 314 515 sel 1;
+#X floatatom 402 473 5 0 0 0 - - - 0;
+#X floatatom 495 480 5 0 0 0 - - - 0;
+#X obj 789 92 unpackOSC;
+#X obj 312 425 routeOSC /percGate /percNote /percIndex;
+#X obj 250 232 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 250 200 sel 1;
+#X floatatom 150 228 5 0 0 0 - - - 0;
+#X obj 1218 579 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1218 547 sel 1;
+#X floatatom 1291 485 5 0 0 0 - - - 0;
+#X floatatom 1362 485 5 0 0 0 - - - 0;
+#X obj 1217 634 mf-fm2Op;
+#X floatatom 1434 484 5 0 0 0 - - - 0;
+#X obj 171 388 kickMf;
+#X obj 35 151 routeOSC /kickPitchEnv /kickDecay /kickNote /kickGate
+;
+#X floatatom 68 232 5 0 0 0 - - - 0;
+#X obj 1218 432 routeOSC /fm2OpGate /fm2OpNote /fm2OpRate /fm2OIndex
+/fm2OpLevel;
+#X obj 1208 249 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 1208 217 sel 1;
+#X floatatom 1298 218 5 0 0 0 - - - 0;
+#X floatatom 1374 217 5 0 0 0 - - - 0;
+#X floatatom 1457 220 5 0 0 0 - - - 0;
+#X obj 1208 170 routeOSC /psgPlusGate /psgPlusNote /psgPlusIndex /psgPlusLevel
+;
+#X obj 1208 304 psgPlusPD;
+#X obj 322 626 mfPercMultiSampler;
+#X floatatom 780 394 5 0 0 0 - - - 0;
+#X floatatom 880 393 5 0 0 0 - - - 0;
+#X obj 691 443 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 682 396 sel 1;
+#X obj 733 506 chordyPD;
+#X obj 681 360 routeOSC /chordyGate /chordyNote /chordyMode /chordyCutoff
+;
+#X floatatom 968 451 5 0 0 0 - - - 0;
+#X connect 0 0 1 0;
+#X connect 0 0 6 0;
+#X connect 2 0 28 0;
+#X connect 3 0 2 0;
+#X connect 4 0 28 1;
+#X connect 5 0 28 2;
+#X connect 6 0 7 0;
+#X connect 6 0 18 0;
+#X connect 6 0 20 0;
+#X connect 6 0 26 0;
+#X connect 6 0 34 0;
+#X connect 7 0 3 0;
+#X connect 7 1 4 0;
+#X connect 7 2 5 0;
+#X connect 8 0 17 3;
+#X connect 9 0 8 0;
+#X connect 10 0 17 1;
+#X connect 11 0 15 0;
+#X connect 12 0 11 0;
+#X connect 13 0 15 1;
+#X connect 14 0 15 2;
+#X connect 16 0 15 3;
+#X connect 18 0 19 0;
+#X connect 18 1 10 0;
+#X connect 18 2 17 2;
+#X connect 18 3 9 0;
+#X connect 19 0 17 0;
+#X connect 20 0 12 0;
+#X connect 20 1 13 0;
+#X connect 20 2 14 0;
+#X connect 20 3 16 0;
+#X connect 21 0 27 0;
+#X connect 22 0 21 0;
+#X connect 23 0 27 1;
+#X connect 24 0 27 2;
+#X connect 26 0 22 0;
+#X connect 26 1 23 0;
+#X connect 26 2 24 0;
+#X connect 26 3 25 0;
+#X connect 29 0 33 1;
+#X connect 30 0 33 2;
+#X connect 31 0 33 0;
+#X connect 32 0 31 0;
+#X connect 34 0 32 0;
+#X connect 34 1 29 0;
+#X connect 34 2 30 0;
+#X connect 34 3 35 0;
+#X connect 35 0 33 3;

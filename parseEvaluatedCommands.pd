@@ -1,0 +1,13 @@
+#N canvas 422 -915 913 651 12;
+#X obj 128 27 netreceive -u -b 57120;
+#X obj 25 106 oscparse;
+#X obj 192 293 print;
+#X obj 188 102 unpackOSC;
+#X obj 192 174 routeOSC /evaluatedCommand;
+#X obj 414 172 routeOSC /keyPressed;
+#X connect 0 0 1 0;
+#X connect 0 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 0 5 0;
+#X connect 4 0 2 0;
+#X connect 5 0 2 0;
