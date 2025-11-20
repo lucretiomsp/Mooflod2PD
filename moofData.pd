@@ -1,4 +1,4 @@
-#N canvas -98 -1020 1461 992 12;
+#N canvas 243 43 1255 818 12;
 #X obj 728 17 netreceive -u -b 57120;
 #X obj 51 514 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
@@ -34,15 +34,15 @@
 ;
 #X obj 825 287 psgPlusPD;
 #X obj 57 604 mfPercMultiSampler;
-#X floatatom 650 487 5 0 0 0 - - - 0;
-#X floatatom 750 486 5 0 0 0 - - - 0;
-#X obj 569 536 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#X floatatom 644 405 5 0 0 0 - - - 0;
+#X floatatom 744 404 5 0 0 0 - - - 0;
+#X obj 563 454 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
-#X obj 560 489 sel 1;
-#X obj 603 599 chordyPD;
-#X obj 551 453 routeOSC /chordyGate /chordyNote /chordyMode /chordyCutoff
+#X obj 554 407 sel 1;
+#X obj 597 517 chordyPD;
+#X obj 545 371 routeOSC /chordyGate /chordyNote /chordyMode /chordyCutoff
 ;
-#X floatatom 846 544 5 0 0 0 - - - 0;
+#X floatatom 840 462 5 0 0 0 - - - 0;
 #X obj 1036 56 parseEvaluatedCommands;
 #X obj 607 93 s oscFromPharo;
 #X obj 1036 13 r oscFromPharo;
@@ -52,15 +52,20 @@
 #X obj 149 736 sel 1;
 #X floatatom 235 705 5 0 0 0 - - - 0;
 #X floatatom 314 738 5 0 0 0 - - - 0;
-#X obj 155 858 mfHatsMultiSampler;
+#X obj 153 810 mfHatsMultiSampler;
 #X obj 151 658 routeOSC /hatGate /hatNote /hatIndex;
-#X obj 425 765 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#X obj 425 714 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
-#X obj 425 733 sel 1;
-#X floatatom 511 702 5 0 0 0 - - - 0;
-#X floatatom 590 735 5 0 0 0 - - - 0;
-#X obj 427 655 routeOSC /snareGate /snareNote /snareIndex;
-#X obj 431 855 mfSnaresMultiSampler;
+#X obj 425 682 sel 1;
+#X floatatom 511 651 5 0 0 0 - - - 0;
+#X floatatom 596 660 5 0 0 0 - - - 0;
+#X obj 427 604 routeOSC /snareGate /snareNote /snareIndex;
+#X obj 431 804 mfSnaresMultiSampler;
+#X obj 805 892 hip~ 20;
+#X obj 806 957 dac~;
+#X obj 943 754 r oscFromPharo;
+#X obj 941 812 routeOSC /masterCutoff;
+#X floatatom 946 861 5 0 0 0 - - - 0;
 #X connect 0 0 36 0;
 #X connect 0 0 5 0;
 #X connect 1 0 27 0;
@@ -84,7 +89,9 @@
 #X connect 11 0 10 0;
 #X connect 12 0 14 1;
 #X connect 13 0 14 2;
+#X connect 14 0 51 0;
 #X connect 15 0 14 3;
+#X connect 16 0 51 0;
 #X connect 17 0 18 0;
 #X connect 17 1 9 0;
 #X connect 17 2 16 2;
@@ -102,10 +109,13 @@
 #X connect 25 1 22 0;
 #X connect 25 2 23 0;
 #X connect 25 3 24 0;
+#X connect 26 0 51 0;
+#X connect 27 0 51 0;
 #X connect 28 0 32 1;
 #X connect 29 0 32 2;
 #X connect 30 0 32 0;
 #X connect 31 0 30 0;
+#X connect 32 0 51 0;
 #X connect 33 0 31 0;
 #X connect 33 1 28 0;
 #X connect 33 2 29 0;
@@ -117,6 +127,7 @@
 #X connect 40 0 39 0;
 #X connect 41 0 43 1;
 #X connect 42 0 43 2;
+#X connect 43 0 51 0;
 #X connect 44 0 40 0;
 #X connect 44 1 41 0;
 #X connect 44 2 42 0;
@@ -127,3 +138,9 @@
 #X connect 49 0 46 0;
 #X connect 49 1 47 0;
 #X connect 49 2 48 0;
+#X connect 50 0 51 0;
+#X connect 51 0 52 0;
+#X connect 51 0 52 1;
+#X connect 53 0 54 0;
+#X connect 54 0 55 0;
+#X connect 55 0 51 1;
