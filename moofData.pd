@@ -1,4 +1,4 @@
-#N canvas 243 43 1255 818 12;
+#N canvas 185 43 1255 818 12;
 #X obj 728 17 netreceive -u -b 57120;
 #X obj 51 514 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
@@ -66,6 +66,7 @@
 #X obj 943 754 r oscFromPharo;
 #X obj 941 812 routeOSC /masterCutoff;
 #X floatatom 946 861 5 0 0 0 - - - 0;
+#X obj 1024 868 print;
 #X connect 0 0 36 0;
 #X connect 0 0 5 0;
 #X connect 1 0 27 0;
@@ -143,4 +144,5 @@
 #X connect 51 0 52 1;
 #X connect 53 0 54 0;
 #X connect 54 0 55 0;
+#X connect 54 0 56 0;
 #X connect 55 0 51 1;

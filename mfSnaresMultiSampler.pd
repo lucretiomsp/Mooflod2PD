@@ -1,4 +1,4 @@
-#N canvas -9 26 1427 830 12;
+#N canvas 0 26 1427 830 12;
 #X obj 416 385 line~;
 #X obj 545 311 pack 0 1000 2000;
 #X floatatom 680 259 5 0 0 0 - - - 0;
@@ -137,8 +137,6 @@
 #X obj 758 574 r~ snareEnv;
 #X obj 881 60 send snareSampleLen;
 #X obj 506 384 r snareIndex;
-#X obj 1071 566 vsl 15 128 20 18000 0 0 empty empty empty 0 -9 0 10
-#00faff #000000 #000000 0 1;
 #X obj 598 787 outlet~;
 #X connect 0 0 46 0;
 #X connect 1 0 6 0;
@@ -174,7 +172,7 @@
 #X connect 32 0 41 0;
 #X connect 33 0 42 0;
 #X connect 34 0 42 0;
-#X connect 35 0 54 0;
+#X connect 35 0 53 0;
 #X connect 36 0 35 0;
 #X connect 37 0 35 0;
 #X connect 38 0 35 0;
