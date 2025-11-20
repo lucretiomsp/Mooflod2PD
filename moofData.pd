@@ -1,15 +1,15 @@
-#N canvas 390 -1036 1280 772 12;
-#X obj 736 37 netreceive -u -b 57120;
+#N canvas 160 17 1280 772 12;
+#X obj 728 17 netreceive -u -b 57120;
 #X obj 51 514 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
 #X obj 51 482 sel 1;
 #X floatatom 137 451 5 0 0 0 - - - 0;
 #X floatatom 216 484 5 0 0 0 - - - 0;
-#X obj 739 124 unpackOSC;
+#X obj 709 172 unpackOSC;
 #X obj 47 403 routeOSC /percGate /percNote /percIndex;
-#X obj 263 181 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#X obj 281 252 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
-#X obj 263 149 sel 1;
+#X obj 281 220 sel 1;
 #X floatatom 163 177 5 0 0 0 - - - 0;
 #X obj 835 562 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
@@ -19,7 +19,7 @@
 #X obj 834 617 mf-fm2Op;
 #X floatatom 1061 483 5 0 0 0 - - - 0;
 #X obj 184 337 kickMf;
-#X obj 48 100 routeOSC /kickPitchEnv /kickDecay /kickNote /kickGate
+#X obj 72 40 routeOSC /kickPitchEnv /kickDecay /kickNote /kickGate
 ;
 #X floatatom 81 181 5 0 0 0 - - - 0;
 #X obj 835 415 routeOSC /fm2OpGate /fm2OpNote /fm2OpRate /fm2OIndex
@@ -43,21 +43,29 @@
 #X obj 388 452 routeOSC /chordyGate /chordyNote /chordyMode /chordyCutoff
 ;
 #X floatatom 683 543 5 0 0 0 - - - 0;
-#X obj 61 739 parseEvaluatedCommands;
+#X obj 1036 56 parseEvaluatedCommands;
 #X obj 607 93 s oscFromPharo;
-#X obj 61 696 r oscFromPharo;
-#X obj 61 789 print;
-#X connect 0 0 5 0;
+#X obj 1036 13 r oscFromPharo;
+#X obj 1036 106 print;
+#X obj 181 758 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 181 726 sel 1;
+#X floatatom 267 695 5 0 0 0 - - - 0;
+#X floatatom 346 728 5 0 0 0 - - - 0;
+#X obj 187 848 mfHatsMultiSampler;
+#X obj 176 646 routeOSC /hatGate /hatNote /hatIndex;
 #X connect 0 0 36 0;
+#X connect 0 0 5 0;
 #X connect 1 0 27 0;
 #X connect 2 0 1 0;
 #X connect 3 0 27 1;
 #X connect 4 0 27 2;
-#X connect 5 0 6 0;
-#X connect 5 0 17 0;
-#X connect 5 0 19 0;
 #X connect 5 0 25 0;
+#X connect 5 0 19 0;
 #X connect 5 0 33 0;
+#X connect 5 0 17 0;
+#X connect 5 0 6 0;
+#X connect 5 0 44 0;
 #X connect 6 0 2 0;
 #X connect 6 1 3 0;
 #X connect 6 2 4 0;
@@ -97,3 +105,10 @@
 #X connect 34 0 32 3;
 #X connect 35 0 38 0;
 #X connect 37 0 35 0;
+#X connect 39 0 43 0;
+#X connect 40 0 39 0;
+#X connect 41 0 43 1;
+#X connect 42 0 43 2;
+#X connect 44 0 40 0;
+#X connect 44 1 41 0;
+#X connect 44 2 42 0;

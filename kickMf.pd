@@ -44,7 +44,7 @@
 #X obj 76 87 inlet;
 #X obj 734 315 s kickMfTrig;
 #X obj 31 255 r kickMfTrig;
-#X obj 446 680 *~ 0.5;
+#X obj 446 680 *~ 0.25;
 #X connect 0 0 39 0;
 #X connect 1 0 10 0;
 #X connect 1 0 34 0;
