@@ -1,4 +1,4 @@
-#N canvas 307 25 743 643 12;
+#N canvas 799 -671 743 643 12;
 #X obj 88 111 loadbang;
 #X obj 79 192 soundfiler;
 #X floatatom 318 260 5 0 0 0 - - - 0;
@@ -38,7 +38,7 @@
 #X coords 0 1 1923 -1 200 140 1;
 #X restore 460 -5 graph;
 #X obj 41 537 *~ 0.3;
-#X obj 478 284 / 2;
+#X obj 478 284 / 0.5;
 #X connect 0 0 16 0;
 #X connect 1 0 3 0;
 #X connect 1 0 14 0;
