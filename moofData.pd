@@ -1,4 +1,4 @@
-#N canvas 31 90 1440 763 12;
+#N canvas -68 -963 1440 763 12;
 #X obj 728 17 netreceive -u -b 57120;
 #X obj 26 480 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
@@ -11,9 +11,9 @@
 #000000 #000000;
 #X obj 258 152 sel 1;
 #X floatatom 140 109 5 0 0 0 - - - 0;
-#X obj 984 540 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#X obj 946 513 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
-#X obj 984 508 sel 1;
+#X obj 944 480 sel 1;
 #X floatatom 1057 446 5 0 0 0 - - - 0;
 #X floatatom 1128 446 5 0 0 0 - - - 0;
 #X obj 984 594 mf-fm2Op;
@@ -34,9 +34,9 @@
 #X obj 32 570 mfPercMultiSampler;
 #X floatatom 644 405 5 0 0 0 - - - 0;
 #X floatatom 744 404 5 0 0 0 - - - 0;
-#X obj 563 454 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#X obj 535 467 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
-#X obj 554 407 sel 1;
+#X obj 536 439 sel 1;
 #X obj 597 517 chordyPD;
 #X obj 545 371 routeOSC /chordyGate /chordyNote /chordyMode /chordyCutoff
 ;
@@ -133,7 +133,6 @@
 #X connect 7 0 16 3;
 #X connect 8 0 7 0;
 #X connect 9 0 16 1;
-#X connect 10 0 14 0;
 #X connect 11 0 10 0;
 #X connect 12 0 14 1;
 #X connect 13 0 14 2;
@@ -157,10 +156,10 @@
 #X connect 26 0 49 0;
 #X connect 27 0 31 1;
 #X connect 28 0 31 2;
-#X connect 29 0 31 0;
 #X connect 30 0 29 0;
 #X connect 31 0 49 0;
 #X connect 32 0 30 0;
+#X connect 32 0 31 0;
 #X connect 32 1 27 0;
 #X connect 32 2 28 0;
 #X connect 32 3 33 0;
@@ -225,6 +224,7 @@
 #X connect 87 0 67 0;
 #X connect 88 0 87 0;
 #X connect 89 0 11 0;
+#X connect 89 0 14 0;
 #X connect 89 1 12 0;
 #X connect 89 2 13 0;
 #X connect 89 3 15 0;
