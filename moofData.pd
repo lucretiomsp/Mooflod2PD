@@ -1,4 +1,4 @@
-#N canvas -68 -963 1440 763 12;
+#N canvas 64 121 1440 763 12;
 #X obj 728 17 netreceive -u -b 57120;
 #X obj 26 480 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
@@ -82,12 +82,12 @@
 #X obj 1342 812 routeOSC /masterDelayTime;
 #X obj 1085 1028 routeOSC /masterDelayFeedback;
 #X obj 100 649 routeOSC /hatGate /hatNote /hatIndex;
-#X obj 1332 237 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#X obj 1325 182 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
-#X obj 1327 200 sel 1;
-#X floatatom 1417 201 5 0 0 0 - - - 0;
-#X obj 1341 265 mfRide;
-#X obj 1349 316 s~ mfRide;
+#X obj 1325 158 sel 1;
+#X floatatom 1415 158 5 0 0 0 - - - 0;
+#X obj 1325 202 mfRide;
+#X obj 1325 226 s~ mfRide;
 #X obj 540 841 r~ mfRide;
 #X obj 1712 111 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
@@ -110,12 +110,12 @@
 #X obj 1340 1177 *~ 0.36;
 #X obj 1326 131 routeOSC /rideGate /rideNote /crashGate /crashNote
 ;
-#X obj 1511 237 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#X obj 1504 182 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
-#X obj 1506 200 sel 1;
-#X floatatom 1596 201 5 0 0 0 - - - 0;
-#X obj 1520 265 mfCrash;
-#X obj 1528 316 s~ mfCrash;
+#X obj 1504 158 sel 1;
+#X floatatom 1594 158 5 0 0 0 - - - 0;
+#X obj 1504 202 mfCrash;
+#X obj 1504 226 s~ mfCrash;
 #X obj 710 844 r~ mfCrash;
 #X obj 56 1076 r~ mfKick;
 #X obj 40 299 s~ mfKick;
@@ -129,8 +129,8 @@
 #X obj 225 889 r~ mfChordy;
 #X obj 939 292 s~ mfPsgPlus;
 #X obj 320 861 r~ mfPsgPlus;
-#X obj 988 531 s~ fm2Op;
 #X obj 425 856 r~ mfFm2Op;
+#X obj 988 531 s~ mfFm2Op;
 #X connect 0 0 35 0;
 #X connect 0 0 5 0;
 #X connect 1 0 26 0;
@@ -155,7 +155,7 @@
 #X connect 11 0 10 0;
 #X connect 12 0 14 1;
 #X connect 13 0 14 2;
-#X connect 14 0 112 0;
+#X connect 14 0 113 0;
 #X connect 15 0 14 3;
 #X connect 16 0 101 0;
 #X connect 17 0 18 0;
@@ -251,6 +251,8 @@
 #X connect 92 0 59 1;
 #X connect 93 0 71 0;
 #X connect 93 1 72 0;
+#X connect 93 2 95 0;
+#X connect 93 3 96 0;
 #X connect 94 0 97 0;
 #X connect 95 0 94 0;
 #X connect 96 0 97 1;
@@ -262,4 +264,4 @@
 #X connect 107 0 49 0;
 #X connect 109 0 49 0;
 #X connect 111 0 49 0;
-#X connect 113 0 49 0;
+#X connect 112 0 49 0;
