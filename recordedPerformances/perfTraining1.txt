@@ -1,0 +1,817 @@
+[
+80 toLocal: 'keyPressed'.
+0.092735 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.388784 seconds wait.
+
+59 toLocal: 'keyPressed'.
+0.017683 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.407831 seconds wait.
+
+61 toLocal: 'keyPressed'.
+0.112687 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.315082 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.000381 seconds wait.
+
+80 toLocal: 'keyPressed'.
+0.248075 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.156976 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.528459 seconds wait.
+
+70 toLocal: 'keyPressed'.
+0.147856 seconds wait.
+
+79 toLocal: 'keyPressed'.
+0.083931 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.181891 seconds wait.
+
+77 toLocal: 'keyPressed'.
+0.119919 seconds wait.
+
+65 toLocal: 'keyPressed'.
+0.11328 seconds wait.
+
+78 toLocal: 'keyPressed'.
+0.143437 seconds wait.
+
+67 toLocal: 'keyPressed'.
+0.056169 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.199074 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.490264 seconds wait.
+
+85 toLocal: 'keyPressed'.
+0.332241 seconds wait.
+
+78 toLocal: 'keyPressed'.
+0.040708 seconds wait.
+
+73 toLocal: 'keyPressed'.
+0.14437 seconds wait.
+
+81 toLocal: 'keyPressed'.
+0.093481 seconds wait.
+
+85 toLocal: 'keyPressed'.
+0.116319 seconds wait.
+
+69 toLocal: 'keyPressed'.
+1.300815 seconds wait.
+
+73 toLocal: 'keyPressed'.
+0.000397 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.199987 seconds wait.
+
+78 toLocal: 'keyPressed'.
+0.101843 seconds wait.
+
+83 toLocal: 'keyPressed'.
+0.236718 seconds wait.
+
+84 toLocal: 'keyPressed'.
+0.262607 seconds wait.
+
+65 toLocal: 'keyPressed'.
+0.132207 seconds wait.
+
+78 toLocal: 'keyPressed'.
+0.092217 seconds wait.
+
+67 toLocal: 'keyPressed'.
+0.059224 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.30386 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.442693 seconds wait.
+
+46 toLocal: 'keyPressed'.
+0.968197 seconds wait.
+
+65293 toLocal: 'keyPressed'.
+0.686354 seconds wait.
+
+65362 toLocal: 'keyPressed'.
+0.085987 seconds wait.
+
+p := Performance uniqueInstance .
+'p := Performance uniqueInstance .' toLocal: 'evaluatedCommand'.
+0.089341 seconds wait.
+
+65515 toLocal: 'keyPressed'.
+0.027767 seconds wait.
+
+68 toLocal: 'keyPressed'.
+0.301125 seconds wait.
+
+65364 toLocal: 'keyPressed'.
+0.775512 seconds wait.
+
+80 toLocal: 'keyPressed'.
+0.115606 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.194158 seconds wait.
+
+80 toLocal: 'keyPressed'.
+0.126962 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.081504 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.216926 seconds wait.
+
+70 toLocal: 'keyPressed'.
+0.157687 seconds wait.
+
+79 toLocal: 'keyPressed'.
+0.108923 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.233363 seconds wait.
+
+77 toLocal: 'keyPressed'.
+0.104122 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.093842 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.569133 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.030962 seconds wait.
+
+59 toLocal: 'keyPressed'.
+0.12494 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.526998 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.000589 seconds wait.
+
+80 toLocal: 'keyPressed'.
+0.301112 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.199477 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.18069 seconds wait.
+
+70 toLocal: 'keyPressed'.
+0.171326 seconds wait.
+
+79 toLocal: 'keyPressed'.
+0.154849 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.184282 seconds wait.
+
+77 toLocal: 'keyPressed'.
+0.095543 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.127017 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.48396 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.033425 seconds wait.
+
+76 toLocal: 'keyPressed'.
+0.184212 seconds wait.
+
+79 toLocal: 'keyPressed'.
+0.1499 seconds wait.
+
+67 toLocal: 'keyPressed'.
+0.217525 seconds wait.
+
+65 toLocal: 'keyPressed'.
+0.123272 seconds wait.
+
+76 toLocal: 'keyPressed'.
+0.332683 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.24975 seconds wait.
+
+78 toLocal: 'keyPressed'.
+0.20931 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.061803 seconds wait.
+
+87 toLocal: 'keyPressed'.
+0.407533 seconds wait.
+
+46 toLocal: 'keyPressed'.
+0.444517 seconds wait.
+
+p performer: PerformerLocal new.
+'p performer: PerformerLocal new.' toLocal: 'evaluatedCommand'.
+0.092106 seconds wait.
+
+65515 toLocal: 'keyPressed'.
+0.012769 seconds wait.
+
+68 toLocal: 'keyPressed'.
+0.71713 seconds wait.
+
+65363 toLocal: 'keyPressed'.
+0.904623 seconds wait.
+
+65293 toLocal: 'keyPressed'.
+0.226544 seconds wait.
+
+65293 toLocal: 'keyPressed'.
+2.530253 seconds wait.
+
+39 toLocal: 'keyPressed'.
+0.618702 seconds wait.
+
+56 toLocal: 'keyPressed'.
+0.530183 seconds wait.
+
+50 toLocal: 'keyPressed'.
+1.335832 seconds wait.
+
+48 toLocal: 'keyPressed'.
+0.147663 seconds wait.
+
+50 toLocal: 'keyPressed'.
+0.482581 seconds wait.
+
+65363 toLocal: 'keyPressed'.
+0.334676 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.201485 seconds wait.
+
+72 toLocal: 'keyPressed'.
+0.11086 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.204443 seconds wait.
+
+88 toLocal: 'keyPressed'.
+0.319139 seconds wait.
+
+66 toLocal: 'keyPressed'.
+0.000393 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.215885 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.185554 seconds wait.
+
+65 toLocal: 'keyPressed'.
+0.131204 seconds wait.
+
+84 toLocal: 'keyPressed'.
+0.090865 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.678175 seconds wait.
+
+84 toLocal: 'keyPressed'.
+0.162288 seconds wait.
+
+79 toLocal: 'keyPressed'.
+0.325504 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.000473 seconds wait.
+
+59 toLocal: 'keyPressed'.
+0.180641 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.764794 seconds wait.
+
+51 toLocal: 'keyPressed'.
+0.04887 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.419307 seconds wait.
+
+75 toLocal: 'keyPressed'.
+0.165539 seconds wait.
+
+73 toLocal: 'keyPressed'.
+0.093477 seconds wait.
+
+67 toLocal: 'keyPressed'.
+0.150292 seconds wait.
+
+75 toLocal: 'keyPressed'.
+0.27338 seconds wait.
+
+46 toLocal: 'keyPressed'.
+2.340395 seconds wait.
+
+'8202' hexBeat to: #kick.
+'''8202'' hexBeat to: #kick.' toLocal: 'evaluatedCommand'.
+0.091888 seconds wait.
+
+65515 toLocal: 'keyPressed'.
+0.033707 seconds wait.
+
+68 toLocal: 'keyPressed'.
+0.486956 seconds wait.
+
+65363 toLocal: 'keyPressed'.
+0.329459 seconds wait.
+
+65293 toLocal: 'keyPressed'.
+0.176143 seconds wait.
+
+65293 toLocal: 'keyPressed'.
+0.157435 seconds wait.
+
+65293 toLocal: 'keyPressed'.
+0.430431 seconds wait.
+
+80 toLocal: 'keyPressed'.
+0.128677 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.113419 seconds wait.
+
+80 toLocal: 'keyPressed'.
+0.258147 seconds wait.
+
+76 toLocal: 'keyPressed'.
+0.066849 seconds wait.
+
+65 toLocal: 'keyPressed'.
+0.266521 seconds wait.
+
+89 toLocal: 'keyPressed'.
+0.443316 seconds wait.
+
+70 toLocal: 'keyPressed'.
+0.018017 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+1.454336 seconds wait.
+
+79 toLocal: 'keyPressed'.
+0.116254 seconds wait.
+
+84 toLocal: 'keyPressed'.
+0.313412 seconds wait.
+
+65288 toLocal: 'keyPressed'.
+0.141359 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.567331 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.03668 seconds wait.
+
+59 toLocal: 'keyPressed'.
+0.125904 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.483801 seconds wait.
+
+53 toLocal: 'keyPressed'.
+0.336058 seconds wait.
+
+49 toLocal: 'keyPressed'.
+0.154984 seconds wait.
+
+50 toLocal: 'keyPressed'.
+0.130301 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.131323 seconds wait.
+
+66 toLocal: 'keyPressed'.
+0.18767 seconds wait.
+
+65 toLocal: 'keyPressed'.
+0.094907 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.090957 seconds wait.
+
+83 toLocal: 'keyPressed'.
+0.698252 seconds wait.
+
+46 toLocal: 'keyPressed'.
+1.954469 seconds wait.
+
+p playFor: 512 bars.
+'p playFor: 512 bars.' toLocal: 'evaluatedCommand'.
+0.094881 seconds wait.
+
+68 toLocal: 'keyPressed'.
+0.021717 seconds wait.
+
+65515 toLocal: 'keyPressed'.
+2.908314 seconds wait.
+
+65362 toLocal: 'keyPressed'.
+0.275945 seconds wait.
+
+65362 toLocal: 'keyPressed'.
+6.923501 seconds wait.
+
+65293 toLocal: 'keyPressed'.
+1.323808 seconds wait.
+
+39 toLocal: 'keyPressed'.
+0.48058 seconds wait.
+
+48 toLocal: 'keyPressed'.
+0.204759 seconds wait.
+
+50 toLocal: 'keyPressed'.
+0.162462 seconds wait.
+
+48 toLocal: 'keyPressed'.
+0.477139 seconds wait.
+
+65288 toLocal: 'keyPressed'.
+0.139335 seconds wait.
+
+65288 toLocal: 'keyPressed'.
+0.601702 seconds wait.
+
+56 toLocal: 'keyPressed'.
+0.173055 seconds wait.
+
+48 toLocal: 'keyPressed'.
+0.16049 seconds wait.
+
+56 toLocal: 'keyPressed'.
+0.562903 seconds wait.
+
+65363 toLocal: 'keyPressed'.
+0.307337 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.327648 seconds wait.
+
+72 toLocal: 'keyPressed'.
+0.06894 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.202104 seconds wait.
+
+88 toLocal: 'keyPressed'.
+0.256068 seconds wait.
+
+66 toLocal: 'keyPressed'.
+0.032838 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.195806 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.197334 seconds wait.
+
+65 toLocal: 'keyPressed'.
+0.091333 seconds wait.
+
+84 toLocal: 'keyPressed'.
+0.188687 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.472023 seconds wait.
+
+84 toLocal: 'keyPressed'.
+0.184171 seconds wait.
+
+79 toLocal: 'keyPressed'.
+0.29934 seconds wait.
+
+59 toLocal: 'keyPressed'.
+0.038937 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.114924 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.592333 seconds wait.
+
+51 toLocal: 'keyPressed'.
+0.050793 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.707917 seconds wait.
+
+83 toLocal: 'keyPressed'.
+0.131817 seconds wait.
+
+78 toLocal: 'keyPressed'.
+0.117417 seconds wait.
+
+65 toLocal: 'keyPressed'.
+0.263752 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.000216 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.166503 seconds wait.
+
+46 toLocal: 'keyPressed'.
+0.620788 seconds wait.
+
+'0808' hexBeat to: #snare.
+'''0808'' hexBeat to: #snare.' toLocal: 'evaluatedCommand'.
+0.048797 seconds wait.
+
+68 toLocal: 'keyPressed'.
+0.031448 seconds wait.
+
+65515 toLocal: 'keyPressed'.
+5.582985 seconds wait.
+
+65361 toLocal: 'keyPressed'.
+0.296629 seconds wait.
+
+65288 toLocal: 'keyPressed'.
+0.937462 seconds wait.
+
+48 toLocal: 'keyPressed'.
+0.436295 seconds wait.
+
+65363 toLocal: 'keyPressed'.
+0.191417 seconds wait.
+
+65363 toLocal: 'keyPressed'.
+0.343934 seconds wait.
+
+65288 toLocal: 'keyPressed'.
+2.075191 seconds wait.
+
+65288 toLocal: 'keyPressed'.
+0.779269 seconds wait.
+
+50 toLocal: 'keyPressed'.
+0.374175 seconds wait.
+
+48 toLocal: 'keyPressed'.
+0.377861 seconds wait.
+
+'8020' hexBeat to: #kick.
+'''8020'' hexBeat to: #kick.' toLocal: 'evaluatedCommand'.
+0.078528 seconds wait.
+
+65515 toLocal: 'keyPressed'.
+0.042488 seconds wait.
+
+68 toLocal: 'keyPressed'.
+3.045195 seconds wait.
+
+65293 toLocal: 'keyPressed'.
+0.641787 seconds wait.
+
+49 toLocal: 'keyPressed'.
+0.202204 seconds wait.
+
+54 toLocal: 'keyPressed'.
+0.074096 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.626773 seconds wait.
+
+81 toLocal: 'keyPressed'.
+0.167156 seconds wait.
+
+85 toLocal: 'keyPressed'.
+0.082998 seconds wait.
+
+65 toLocal: 'keyPressed'.
+0.231279 seconds wait.
+
+86 toLocal: 'keyPressed'.
+0.117848 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.145974 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.182514 seconds wait.
+
+83 toLocal: 'keyPressed'.
+0.140396 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.535028 seconds wait.
+
+84 toLocal: 'keyPressed'.
+0.15744 seconds wait.
+
+79 toLocal: 'keyPressed'.
+0.283886 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.000305 seconds wait.
+
+59 toLocal: 'keyPressed'.
+0.157025 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.342383 seconds wait.
+
+51 toLocal: 'keyPressed'.
+0.046128 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+1.162416 seconds wait.
+
+72 toLocal: 'keyPressed'.
+0.122841 seconds wait.
+
+65 toLocal: 'keyPressed'.
+0.105523 seconds wait.
+
+84 toLocal: 'keyPressed'.
+1.01334 seconds wait.
+
+46 toLocal: 'keyPressed'.
+0.392659 seconds wait.
+
+16 quavers to: #hat.
+'16 quavers to: #hat.' toLocal: 'evaluatedCommand'.
+0.072123 seconds wait.
+
+65515 toLocal: 'keyPressed'.
+0.032871 seconds wait.
+
+68 toLocal: 'keyPressed'.
+1.615761 seconds wait.
+
+65363 toLocal: 'keyPressed'.
+2.035866 seconds wait.
+
+65293 toLocal: 'keyPressed'.
+0.881241 seconds wait.
+
+65362 toLocal: 'keyPressed'.
+1.934888 seconds wait.
+
+80 toLocal: 'keyPressed'.
+0.157476 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.096508 seconds wait.
+
+77 toLocal: 'keyPressed'.
+1.19543 seconds wait.
+
+65288 toLocal: 'keyPressed'.
+1.822459 seconds wait.
+
+83 toLocal: 'keyPressed'.
+0.097343 seconds wait.
+
+79 toLocal: 'keyPressed'.
+0.166043 seconds wait.
+
+76 toLocal: 'keyPressed'.
+0.15246 seconds wait.
+
+79 toLocal: 'keyPressed'.
+0.348262 seconds wait.
+
+59 toLocal: 'keyPressed'.
+0.001303 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+0.153905 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.277888 seconds wait.
+
+51 toLocal: 'keyPressed'.
+0.013448 seconds wait.
+
+65505 toLocal: 'keyPressed'.
+1.0989 seconds wait.
+
+83 toLocal: 'keyPressed'.
+0.369363 seconds wait.
+
+78 toLocal: 'keyPressed'.
+0.123452 seconds wait.
+
+65 toLocal: 'keyPressed'.
+0.265675 seconds wait.
+
+82 toLocal: 'keyPressed'.
+0.000238 seconds wait.
+
+69 toLocal: 'keyPressed'.
+0.167185 seconds wait.
+
+46 toLocal: 'keyPressed'.
+0.766148 seconds wait.
+
+p solo: #snare.
+'p solo: #snare.' toLocal: 'evaluatedCommand'.
+0.051896 seconds wait.
+
+65515 toLocal: 'keyPressed'.
+0.000495 seconds wait.
+
+68 toLocal: 'keyPressed'.
+5.937732 seconds wait.
+
+65363 toLocal: 'keyPressed'.
+4.616855 seconds wait.
+
+65364 toLocal: 'keyPressed'.
+0.402596 seconds wait.
+
+65362 toLocal: 'keyPressed'.
+0.150082 seconds wait.
+
+65362 toLocal: 'keyPressed'.
+0.258878 seconds wait.
+
+65363 toLocal: 'keyPressed'.
+0.145049 seconds wait.
+
+65363 toLocal: 'keyPressed'.
+0.607958 seconds wait.
+
+85 toLocal: 'keyPressed'.
+0.149039 seconds wait.
+
+78 toLocal: 'keyPressed'.
+1.707301 seconds wait.
+
+p unsolo: #snare.
+'p unsolo: #snare.' toLocal: 'evaluatedCommand'.
+0.058623 seconds wait.
+
+65515 toLocal: 'keyPressed'.
+0.00161 seconds wait.
+
+68 toLocal: 'keyPressed'.
+12.6846 seconds wait.
+
+65293 toLocal: 'keyPressed'.
+0.383526 seconds wait.
+
+80 toLocal: 'keyPressed'.
+0.118563 seconds wait.
+
+32 toLocal: 'keyPressed'.
+0.119399 seconds wait.
+
+83 toLocal: 'keyPressed'.
+0.217425 seconds wait.
+
+84 toLocal: 'keyPressed'.
+0.135311 seconds wait.
+
+79 toLocal: 'keyPressed'.
+0.023242 seconds wait.
+
+80 toLocal: 'keyPressed'.
+0.219227 seconds wait.
+
+46 toLocal: 'keyPressed'.
+0.449692 seconds wait.
+
+p stop.
+'p stop.' toLocal: 'evaluatedCommand'.
+0.013752 seconds wait.
+
+65515 toLocal: 'keyPressed'.
+0.000931 seconds wait.
+
+68 toLocal: 'keyPressed'.
+] fork.
